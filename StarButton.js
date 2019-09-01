@@ -109,7 +109,7 @@ class StarButton extends Component {
 
     const newStarStyle = {
       transform: [{
-        scaleX: reversed ? -1 : 1,
+        scaleX: reversed ? 1 : -1,
       }],
       ...StyleSheet.flatten(starStyle),
     };
